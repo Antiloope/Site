@@ -80,7 +80,6 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.up('sm')]: {
             marginLeft: theme.spacing(1),
             width: 'auto',
-            minWidth: '25%',
         },
     },
     searchIcon: {
@@ -102,9 +101,9 @@ const useStyles = makeStyles((theme) => ({
         transition: theme.transitions.create('width'),
         width: '100%',
         [theme.breakpoints.up('sm')]: {
-            width: '12ch',
+            width: '25ch',
             '&:focus': {
-                width: '20ch',
+                width: '34ch',
             },
         },
     },
